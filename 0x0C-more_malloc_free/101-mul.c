@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -122,7 +122,7 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 	{
 		if (*mult < '0' || *mult > '9')
 		{
-			printf("Error \n");
+			printf("Error\n");
 			exit(98);
 		}
 
@@ -194,7 +194,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		printf("Error \n");
+		printf("Error\n");
 		exit(98);
 	}
 
